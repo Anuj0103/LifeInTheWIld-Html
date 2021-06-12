@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Inconsolata', monospace;
+    border-bottom:2px solid rgb(192, 255, 216);
+    border-right:2px solid rgb(192, 255, 216);
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px  rgb(192, 255, 216);
+}
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition:all 1s;
+}
+
+img:hover{
+   transform: rotate(1080deg);
+}
